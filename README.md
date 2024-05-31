@@ -1,5 +1,3 @@
-Got it! Here's the revised README:
-
 # Community Outreach Portal
 
 Welcome to the Community Outreach Portal, a Django application designed to simplify tweeting with image uploads and tagging capabilities. This application integrates with the Twitter API and utilizes OpenCV for camera functionality.
