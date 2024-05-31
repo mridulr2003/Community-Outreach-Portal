@@ -1,0 +1,141 @@
+#container {
+    position: relative;
+    width: 100%;
+    min-width: 980px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#container > div {
+    flex-shrink: 0;
+}
+
+body {
+    background: white;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "Roboto","Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;
+    color: #333;
+}
+
+h1 {
+    padding: 0;
+    margin: 0 20px 0 0;
+    font-weight: 300;
+    font-size: 20px;
+    align-self: center;
+}
+
+#header {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background: #417690;
+    color: #ffc;
+    overflow: hidden;
+}
+
+#header > h1{  
+    color: #f5dd5d;
+    font-size: 24px;
+}
+
+#content{
+    padding: 10px 50px;
+}
+
+#tweet{
+    margin: 0px 0px 20px 0
+}
+
+.button {
+    min-width: 48px;
+    margin: 0 10px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 -15px 20px -10px rgba(0, 0, 0, 0.15) inset;
+    cursor: pointer;
+    height: 24px;
+    line-height: 1;
+    padding: 4px 8px;
+    color: #333;
+    display: block;
+    margin-left: 21%;
+}
+
+.button:hover {
+    border-color: #999;
+}
+
+p {
+    overflow: hidden;
+    padding: 10px;
+    font-size: 13px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+label {
+    width: 200px;
+    font-weight: bold;
+    padding: 4px 10px 0 0;
+    float: left;
+    font-family: "Roboto","Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;
+}
+
+input[type=text] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 6px;
+    margin-top: 0;
+    width: 20em;
+}
+
+input[type=file] {
+    display: block;
+}
+
+/*#id_location{
+    display: block
+    padding: 5px 6px;
+}*/
+
+span {
+    margin-left: 200px;
+    margin-top: 0px;
+    padding-left: 10px;
+    font-size: 11px;
+    color: #999;
+}
+
+a {
+    padding: 10px
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}

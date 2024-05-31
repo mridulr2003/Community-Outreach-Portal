@@ -1,0 +1,23 @@
+<div id='container'>
+    <div id='header'>
+        <h1>Community Help Portal</h1>
+    </div>
+
+    <div id='content'>
+        <h1>Camera</h1>
+    </div>
+
+    <div id='content'>
+        <img src="http://localhost:8000/cam/feed" alt="Camera not available"/>
+    </div>
+
+    <div>
+        <form action="{% url 'cvcam:photo' %}" id="camera"></form>
+            <button type="submit" class="button" form="camera">Click</button>
+        </form>
+    </div>
+
+</div>
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'cvcam/cam.css' %}">

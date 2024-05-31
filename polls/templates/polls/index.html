@@ -1,0 +1,21 @@
+<div id='container'>
+  <div id='header'>
+    <h1>Community Help Portal</h1>
+  </div>
+
+  <div id='content'>
+    <h1 id='tweet'>Tweet</h1>
+
+    <div id='content-main'>
+      <form action="/polls/tweet/" method="post" novalidate enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <a href="{% url 'cvcam:index' %}" target="popup">Capture Image</a>
+        <input type="submit" value="Tweet" class='button'>
+      </form>
+    </div>
+  </div>
+
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'polls/polls.css' %}">

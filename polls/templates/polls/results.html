@@ -1,0 +1,18 @@
+<div id='container'>
+    <div id='header'>
+      <h1>Community Help Portal</h1>
+    </div>
+  
+    <div id='content'>
+
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>
+{% else %} <h1>Your tweet will be posted by Admin after verification</h1>
+{% endif %}
+
+
+        <a href="{% url 'polls:index' %}"><br/>Tweet again?</a>
+    </div>
+
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'polls/polls.css' %}">
