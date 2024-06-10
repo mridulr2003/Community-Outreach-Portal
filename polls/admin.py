@@ -15,10 +15,10 @@ class TweetAdmin(admin.ModelAdmin):
 
         try:
             # personal details
-            consumer_key ="tJh350QARu47c6lHKbONRliC8"
-            consumer_secret ="UQe3OINjdGpWXnRwCPnvTOkehkleUpWJ4u7JoGY6mi82RqL359"
-            access_token ="4472874319-RFKQ1cJQ7QfZFwQARA3HxlbZeRGI99FGonYGCIC"
-            access_token_secret ="FqwBff7ilVUEIETVnJ1CIvX4pLUyGrtW3SOJMlduPpu6K"
+            consumer_key ="##########"
+            consumer_secret ="###################"
+            access_token ="#############################"
+            access_token_secret ="###############################"
 
             # authentication of consumer key and secret
             auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
